@@ -1,0 +1,28 @@
+Git Commands:::
+--------------------------
+
+git config --global user.mail "pdamodar369@gmail.com"	(EMail that we have provided in GitHub Profile) (Cross Check: git config user.mail)
+
+git config --global user.name "pdamodar369"		(Cross Check: git config user.name; )
+		--> --global makes that we needn't to enter User EMail and Name again in our system)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+git init	==> 	To initialize the Local Git Repository.
+
+git remote add origin https://github.com/useraccount/gitName.git
+	We are mapping between Our Local Repository to REMOTE where ORIGIN  is https://github.com/useraccount/gitName.git
+
+git remote set-url origin https://github.com/useraccount/reponame.git
+	We can use set-url only when we want to change the origin. Executing add origin will throw an error
+-------------------------------------------------------------------------------------------------------------------------------------------------
+git status
+	Information of our Current Local Repository
+
+git add .
+	It will add Red files (i.e., Uncommited Files) to git i.e., from local folders to local git repository. (Staging Area)
+
+git commit -m "Uploading my Bootcamp Files"
+	Output:::	*** Please tell me who you are.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+git push origin master
